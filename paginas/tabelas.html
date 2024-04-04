@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>TABELAS</h1>
+    <table border="1">
+        <caption>Tabela com informações</caption>
+        <thead>
+            <tr><!--Inicio Linha1 -->
+                <th>L1C1</th>
+                <th>L1C2</th>
+                <th>L1C3</th>
+                <th>L1C4</th>
+            </tr><!--Fim Linha1 -->
+        </thead>
+        <tbody>
+            <tr><!--Inicio Linha2 -->
+                <td>L2C1</td>
+                <td>L2C2</td>
+                <td>L2C3</td>
+                <td>L2C4</td>
+            </tr><!--Fim Linha2 -->
+        </tbody>
+        <tfoot>
+            <tr><!--Inicio Linha3 -->
+                <td>L3C1</td>
+                <td>L3C2</td>
+                <td>L3C3</td>
+                <td>L3C4</td>
+            </tr><!--Fim Linha3 -->
+        </tfoot>
+    </table>
+    <tr>
+    <table border="1">
+        <caption>Tabela com Colspan</caption>
+        <thead>
+            <tr><!--Inicio Linha1 -->
+                <th colspan="4">L1C1</th>
+                
+            </tr><!--Fim Linha1 -->
+        </thead>
+        <tbody>
+            <tr><!--Inicio Linha2 -->
+                <td>L2C1</td>
+                <td>L2C2</td>
+                <td>L2C3</td>
+                <td>L2C4</td>
+            </tr><!--Fim Linha2 -->
+            <tr><!--Inicio Linha3 -->
+                <td>L3C1</td>
+                <td>L3C2</td>
+                <td>L3C3</td>
+                <td>L3C4</td>
+            </tr><!--Fim Linha3 -->
+        </tbody>
+        <tfoot>
+            <tr><!--Inicio Linha4 -->
+                <td colspan="2">L4C1</td>
+                
+                <td colspan="2">L4C3</td>
+                
+            </tr><!--Fim Linha4 -->
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <tr>
+        <table border="1">
+            <caption>Tabela com Rowspan</caption>
+            
+                <tr><!--Inicio Linha1 -->
+                    <th rowspan="4">L1C1</th>
+                    <th>L1C2</th>
+                    <th>L1C3</th>
+                    <th rowspan="2">L1C4</th>
+                </tr><!--Fim Linha1 -->
+            
+            
+                <tr><!--Inicio Linha2 -->
+                    
+                    <td>L2C2</td>
+                    <td>L2C3</td>
+                    
+                </tr><!--Fim Linha2 -->
+            
+            
+                <tr><!--Inicio Linha3 -->
+                    
+                    <td>L3C2</td>
+                    <td>L3C3</td>
+                    <td  rowspan="2">L3C4</td>
+                </tr><!--Fim Linha3 -->
+
+                <tr><!--Inicio Linha4 -->
+                    
+                    <td>L4C2</td>
+                    <td>L4C3</td>
+                    
+                </tr><!--Fim Linha4 -->
+        </table>
+
+        <br><br>
+
+    <table border="1">
+        <thead style="background-color: rgb(199, 199, 199);">
+            <tr>
+                <th rowspan="3">País</th>
+                <th colspan="2">Saneamento Basico %</th>
+                
+                <th colspan="3">Taxa de mortalidade <br> Infantil (por mil)</th>
+            </tr>
+    
+            <tr>
+                
+                <th rowspan="2">Esgotamento sanitario adequado</th>
+                <th rowspan="2">Abastecimento de Agua</th>
+                <th colspan="3">Ano de permanencia das mães na escola</th>
+                
+                
+            </tr>
+    
+            <tr>
+                
+                
+                
+                <th>até 3</th>
+                <th>de 4 a 7</th>
+                <th>8 ou mais</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>I</td>
+                <td>33</td>
+                <td>47</td>
+                <td>45,1</td>
+                <td>29,6</td>
+                <td>21,4</td>
+            </tr>
+    
+            <tr>
+                <td>II</td>
+                <td>36</td>
+                <td>65</td>
+                <td>70,6</td>
+                <td>41,2</td>
+                <td>28,1</td>
+            </tr>
+    
+            <tr>
+                <td>III</td>
+                <td>81</td>
+                <td>88</td>
+                <td>34,8</td>
+                <td>27,4</td>
+                <td>17,7</td>
+            </tr>
+    
+            <tr>
+                <td>IV</td>
+                <td>62</td>
+                <td>79</td>
+                <td>33,9</td>
+                <td>22,5</td>
+                <td>16,4</td>
+            </tr>
+    
+            <tr>
+                <td>V</td>
+                <td>40</td>
+                <td>73</td>
+                <td>37,9</td>
+                <td>25,1</td>
+                <td>19,3</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    
+</body>
+</html>
